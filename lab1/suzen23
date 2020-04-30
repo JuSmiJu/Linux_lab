@@ -1,4 +1,3 @@
-```
 cd destination/
 mv nginx1.log nginx1.log.back
 mv nginx2.log nginx2.log.back
@@ -10,4 +9,3 @@ ls
 mv nginx* /home/suzen/destination/
 cd ..
 ls
-```
