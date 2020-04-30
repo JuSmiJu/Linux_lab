@@ -8,7 +8,7 @@
 
 ![](https://github.com/JuSmiJu/laba/blob/master/lab2/photo/2.png)
 
-Выделили место под таблицу разделов, присволили sda '/boot', настроили RAID
+Выделили место под таблицу разделов, присволили sda `/boot`, настроили RAID
 
 ![](https://github.com/JuSmiJu/laba/blob/master/lab2/photo/7.jpg)
 
@@ -24,7 +24,7 @@
 
 ![](https://github.com/JuSmiJu/laba/blob/master/lab2/photo/5.png)
 
-Результаты команд 'cat /proc/mdstat' (выводит инфу о RAID)
+Результаты команд `cat /proc/mdstat` (выводит инфу о RAID)
 
 ![](https://github.com/JuSmiJu/laba/blob/master/lab2/photo/6.png)
 
@@ -36,7 +36,7 @@
 
 ![](https://github.com/JuSmiJu/laba/blob/master/lab2/photo/9.jpg)
 
-В настройках ВМ добавляем один новый SSD и проверем все ли нормально 'fdisk -l'. Disk /dev/sda: 6 Gib означает, что диск полностью пустой
+В настройках ВМ добавляем один новый SSD и проверем все ли нормально `fdisk -l`. Disk /dev/sda: 6 Gib означает, что диск полностью пустой
 
 ![](https://github.com/JuSmiJu/laba/blob/master/lab2/photo/10.jpg)
 
@@ -44,7 +44,7 @@
 
 ![](https://github.com/JuSmiJu/laba/blob/master/lab2/photo/11.jpg)
 
-Добавили новый диск в RAID массив '--manage /dev/md0 --add /dev/sdb2' 
+Добавили новый диск в RAID массив `--manage /dev/md0 --add /dev/sdb2` 
 
 ![](https://github.com/JuSmiJu/laba/blob/master/lab2/photo/12.jpg)
 
