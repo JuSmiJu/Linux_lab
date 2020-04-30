@@ -1,0 +1,7 @@
+```
+cd /home/john/
+rm -rf ./*
+ls -a
+cd /home/suzen/
+ls
+```
